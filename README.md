@@ -1,2 +1,4 @@
 # Project-Python_Graph_Programming
 This project is concerned with the implementation of ​mathematical graphs​ and their usages.
+The basic definition of a graph is a set of nodes where some pairs of nodes are connected by edges, and where these edges have weights. Each edge of the graph has a direction so by default a graph is directional. If there is an edge directed from node A to node B, then we say that A is pointing at B, and we note that this does not necessarily mean that B is pointing at B. However, if all the edges come in “pairs” (namely, if X is pointing at Y and Y is also pointing at X), then we say that the graph is non-directional.
+If it is possible to “travel” from a node A to node B (either directly or through any number of consecutive neighbors), then we say that B is reachable from A and that there is a path connecting A to B. The weight of a path is the sum of the weights of the edges from which the path is made of.
